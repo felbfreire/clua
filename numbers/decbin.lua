@@ -13,5 +13,6 @@ for dindex in pairs(decimal) do
 		io.write(math.floor(decimal[dindex] % 2))
 		decimal[dindex] = decimal[dindex] / 2
 	end
+	io.write("\n")
 end
 
